@@ -23,7 +23,6 @@ WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'
 ORDER BY hire_date;
 
 -- 3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
-
 SELECT	
 	dept_manager.dept_no AS "Department Number",
 	departments.dept_name AS "Department Name",	
